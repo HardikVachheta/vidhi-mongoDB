@@ -10,7 +10,7 @@ const {
 // const authMiddleware = require("../../MySQL/middleware/auth.middleware");
 // const roleCheck = require("../../MySQL/middleware/auth.middleware");
 
-const { auth, roleCheck } = require("../../MySQL/middleware/auth.middleware");
+const { auth, roleCheck } = require("../middleware/auth.middleware");
 const router = express.Router();
 
 router.get("/get", getUser);
